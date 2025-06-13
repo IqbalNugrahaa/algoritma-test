@@ -2,7 +2,6 @@ import CalculateMatch from "@/utils/calculateMatch";
 import CountDiagonalSum from "@/utils/countDiagonalSum";
 import FindLongestText from "@/utils/findLongestText";
 import ReverseAlphabet from "@/utils/reverseAlphabet";
-import Image from "next/image";
 
 export default function Home() {
   const inputNumber1 = "NEGIE1";
@@ -30,7 +29,8 @@ export default function Home() {
       {/* SOAL NO 1 */}
       <div>
         <p className="text-base text-black font-medium">
-          1. Terdapat string "NEGIE1", silahkan reverse alphabet nya dengan angka tetap diakhir kata Hasil = "EIGEN1"
+          1. Terdapat string <code>NEGIE1</code>, silakan reverse hurufnya dengan angka tetap di akhir.
+          Hasil = <code>EIGEN1</code>
         </p>
         <p className="text-sm text-black font-normal">
           Output: <span className="text-gray-500">{outputNumber1}</span>
